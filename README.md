@@ -25,5 +25,5 @@ Built with modern CSS (Flexbox, CSS Variables, Backdrop Filters) and zero image 
 ```html
 <link rel="stylesheet" href="path/to/jquery.stickychat.css">
 
-<script src="[https://code.jquery.com/jquery-3.7.1.min.js](https://code.jquery.com/jquery-3.7.1.min.js)"></script>
+<script src="[https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="path/to/jquery.stickychat.js"></script>
