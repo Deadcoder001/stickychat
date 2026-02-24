@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StickyChat.js Demo</title>
+    
+    <link rel="stylesheet" href="jquery.stickychat.css">
+    
+    <style>
+        /* Just some basic styling for the demo page */
+        body { font-family: sans-serif; text-align: center; padding-top: 50px; background-color: #f4f7f6; }
+        h1 { color: #333; }
+    </style>
+</head>
+<body>
+
+    <h1>StickyChat.js Demo</h1>
+    <p>Look at the bottom right corner of your screen!</p>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    
+    <script src="jquery.stickychat.js"></script>
+    
+    <script>
+        $(document).ready(function() {
+            // Attach to the body
+            $('body').stickyChat({
+                phoneNumber: "9100000000", // Example India code
+                message: "Need help? Chat with us!",
+                position: "right", // change to 'left' to test
+                defaultText: "Hi! I found your website and need some assistance."
+            });
+        });
+    </script>
+
+</body>
+</html>
